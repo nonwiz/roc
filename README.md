@@ -1,3 +1,3 @@
-# cw
+# cw / roc
 
-Just github copilot wrapper
+just github copilot wrapper // opencode wrapper for raycast.
