@@ -14,6 +14,10 @@ export default function ActionPanelOptions({ thread }: { thread?: Thread }) {
             await showToast({ style: Toast.Style.Failure, title: "Query cannot be empty" });
             return;
           }
+          if (loading$.get() === true) {
+            await showToast({ style: Toast.Style.Failure, title: "Hold on." });
+            return;
+          }
           loading$.set(true);
           const toast = await showToast({ style: Toast.Style.Animated, title: "Query..." });
           const response = await sendNewMessage(query);
