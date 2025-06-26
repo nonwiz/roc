@@ -5,7 +5,7 @@
   "description": "Chat with opencode's session",
   "icon": "at-sign-circle.png",
   "author": "itsnonwiz",
-  "owner": "nonwiz",
+  "owner": "mushi",
   "license": "MIT",
   "commands": [
     {
