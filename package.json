@@ -1,10 +1,10 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "roc",
-  "title": "Chat with opencode",
+  "title": "Chat with Opencode",
   "description": "Chat with opencode's session",
   "icon": "at-sign-circle.png",
-  "author": "nonwiz",
+  "author": "itsnonwiz",
   "owner": "nonwiz",
   "license": "MIT",
   "commands": [
@@ -70,14 +70,16 @@
       "default": "gpt-4.1"
     },
     {
+      "title": "Session ID",
       "name": "sessionID",
       "description": "Session ID for the chat",
       "type": "textfield",
       "required": true
     },
     {
+      "title": "API URL",
       "name": "apiUrl",
-      "description": "API URL",
+      "description": "Opencode API URL",
       "type": "textfield",
       "required": false,
       "default": "http://localhost:4096/session_chat"
